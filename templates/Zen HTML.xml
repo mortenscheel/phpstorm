@@ -1,15 +1,19 @@
 <templateSet group="Zen HTML">
   <template name="a" value="&lt;a href=&quot;$VAR0$&quot;&gt;$END$&lt;/a&gt;" description="&lt;a href=&quot;...&quot;&gt;...&lt;/a&gt;" toReformat="false" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="form" value="&lt;form action=&quot;$VAR0$&quot;&gt;$END$&lt;/form&gt;" description="&lt;form action=&quot;...&quot;&gt;...&lt;/form&gt;" toReformat="false" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <variable name="id" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="label" value="&lt;label for=&quot;$VAR0$&quot;&gt;$END$&lt;/label&gt;" description="&lt;label for=&quot;...&quot;&gt;...&lt;/label&gt;" toReformat="false" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="input" value="&lt;input type=&quot;$VAR0$&quot;/&gt;" description="&lt;input type=&quot;...&quot;/&gt;" toReformat="false" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;text&quot;" alwaysStopAt="true" />
+    <context />
   </template>
 </templateSet>
