@@ -1,0 +1,10 @@
+<templateSet group="Twig">
+  <template name="ifin" value="{% if $CONDITION$%}$OUTPUT${% endif %}$END$" description="inline if" toReformat="false" toShortenFQNames="true">
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="OUTPUT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

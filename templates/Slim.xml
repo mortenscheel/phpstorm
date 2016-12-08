@@ -1,0 +1,16 @@
+<templateSet group="Slim">
+  <template name="slimr" value="$app-&gt;$METHOD$(&quot;$PATH$&quot;, function ($PARAM$) use ($app){&#10;    $END$&#10;});" toReformat="false" toShortenFQNames="true">
+    <variable name="METHOD" expression="enum(&quot;get&quot;, &quot;post&quot;, &quot;group&quot;,&quot;put&quot;,&quot;delete&quot;)" defaultValue="&quot;get&quot;" alwaysStopAt="true" />
+    <variable name="PATH" expression="" defaultValue="&quot;/&quot;" alwaysStopAt="true" />
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="slimresp" value="$app-&gt;response-&gt;body(json_encode($ARRAY$));" toReformat="false" toShortenFQNames="true">
+    <variable name="ARRAY" expression="" defaultValue="&quot;compact('success')&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,89 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9f471e07-7593-4361-bff2-0f2286c293f3" name="Findforsikring backend FTP" url="http://findforsikring.dk:45dba7d7@linux100.123hotel.dk">
+        <fileTransfer host="linux100.123hotel.dk" port="21" rootFolder="/www/backend">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="a7758d9a-a76a-4b28-b3a3-f3986a4feda0" name="Localhost" url="http://localhost/Sites/PhpStormUnitTesting">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="92f088d1-04f6-4362-9c53-c6b425b31544" name="Digital Ocean" url="http://188.226.141.57">
+        <fileTransfer host="188.226.141.57" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="edfa37d7-172c-44f2-ab0e-028f68f9b08b" name="Findforsikring FTP" url="http://www.findforsikring.dk">
+        <fileTransfer host="linux100.123hotel.dk" port="21" rootFolder="/www">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="645ad53d-334c-4bed-8830-ff6e1b5d6412" name="Findforsikring2" url="http://linux13.123hotel.dk">
+        <fileTransfer host="linux13.123hotel.dk" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="c5ea6368-ade7-40cc-99fa-6b5d7291d4fb" name="Survey FTP" url="http://linux13.123hotel.dk">
+        <fileTransfer host="linux13.123hotel.dk" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="92a9c807-65a5-4409-9088-6bb4bb2a41b0" name="Survey-FTP" url="http://surwhey.com">
+        <fileTransfer host="linux13.123hotel.dk" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="7d4a27c2-c64a-4a3e-be3d-166848c71aa1" name="FR-prolinux" url="http://prolinux1.123hotel.dk">
+        <fileTransfer host="prolinux1.123hotel.dk" port="21" rootFolder="/www">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="9a96afa8-b1dd-45ac-8093-e05362aff6ac" name="FF VPN" url="http://185.21.40.236">
+        <fileTransfer host="185.21.40.236" port="22" rootFolder="/var/www" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="9b3b4a19-7577-4880-a3c5-54765a3c4548" name="Mint-VM" url="http://mint-vm">
+        <fileTransfer host="mint-vm" port="22" rootFolder="/code" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="30f6c204-f3ad-41e0-9b20-d5752c34cd94" name="mortenscheel.com" url="http://relay.mortenscheel.com">
+        <fileTransfer host="relay.mortenscheel.com" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>

@@ -1,0 +1,87 @@
+<templateSet group="Morten">
+  <template name="headr" value="header('Content-type: $TYPE$;charset=UTF-8');" description="Headers" toReformat="false" toShortenFQNames="true">
+    <variable name="TYPE" expression="enum(&quot;text/html&quot;, &quot;text/plain&quot;, &quot;application/js&quot;, &quot;application/json&quot;)" defaultValue="'text/html'" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="if" value="if ($END$){&#10;&#10;}" description="If statement" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="sjson" value="exit(json_encode(array('success' =&gt; $SUCCESS$, 'message' =&gt; '$MSG$'$END$)));" description="Send JSON array" toReformat="false" toShortenFQNames="true">
+    <variable name="SUCCESS" expression="enum(&quot;false&quot;,&quot;true&quot;))" defaultValue="&quot;false&quot;" alwaysStopAt="true" />
+    <variable name="MSG" expression="" defaultValue="&quot;Message&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="sdr" value="$_SERVER['DOCUMENT_ROOT']$END$" description="Document Root" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="shh" value="$_SERVER['HTTP_HOST']$END$" description="Http Host" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="whilerow" value="while ($row = $$$RESULTSET$-&gt;fetch(PDO::FETCH_ASSOC)){&#10;&#9;$END$&#10;}" description="loop through DB rows" toReformat="false" toShortenFQNames="true">
+    <variable name="RESULTSET" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="tryc" value="try{&#10;&#9;$END$&#10;}&#10;catch (Exception $e){&#10;}" description="try-catch" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="class" value="class $CLASSNAME$ $EXTENDS$ $PARENT${&#10;&#10;&#9;public function __construct(){&#10;&#9;&#10;&#9;}&#10;&#9;&#10;&#9;$END$&#10;}" description="PHP class skeleton" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASSNAME" expression="" defaultValue="&quot;ClassName&quot;" alwaysStopAt="true" />
+    <variable name="EXTENDS" expression="" defaultValue="&quot;extends&quot;" alwaysStopAt="true" />
+    <variable name="PARENT" expression="" defaultValue="&quot;ParentClass&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="log" value="console.log($END$);" description="js log" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="for" value="for (var $VAR$ = 0 ; $VAR$ &lt; $LIMIT$ ; $VAR$++){&#10;&#9;$END$&#10;}" description="js for loop" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="&quot;i&quot;" alwaysStopAt="true" />
+    <variable name="LIMIT" expression="" defaultValue="&quot;1000&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="incake" value="if (!array_key_exists($KEY$, $COLLECTION$)){&#10;&#9;$COLLECTION$[$KEY$] = 0;&#10;}&#10;$COLLECTION$[$KEY$]++;$END$" description="Increment counter if ake" toReformat="false" toShortenFQNames="true">
+    <variable name="KEY" expression="" defaultValue="&quot;$key&quot;" alwaysStopAt="true" />
+    <variable name="COLLECTION" expression="" defaultValue="&quot;$collection&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="_c" value="public function __construct($PARAM$){&#10;    $END$&#10;}" description="PHP constructor" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="func" value="function ($v$){&#10;    $END$&#10;}" description="PHP function" toReformat="false" toShortenFQNames="true">
+    <variable name="v" expression="enum(&quot;$v&quot;,&quot;&quot;)" defaultValue="&quot;$v&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="map" value="array_map(function ($v){&#10;    $END$&#10;}, $COLLECTION$);" description="array_map selection" toReformat="false" toShortenFQNames="true">
+    <variable name="COLLECTION" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
