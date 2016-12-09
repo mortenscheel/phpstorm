@@ -3,8 +3,8 @@
     <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="OUTPUT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="HTML" value="true" />
       <option name="Twig" value="true" />
+      <option name="HTML" value="true" />
     </context>
   </template>
   <template name="else" value="{% else %}&#10;$END$" description="else" toReformat="false" toShortenFQNames="true">
