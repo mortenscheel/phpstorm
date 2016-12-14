@@ -1,6 +1,14 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="232dea59-3806-4d78-9b92-8b32e7254101" name="Findforsikring-server.dk" url="http://prolinux1.123hotel.dk">
+        <fileTransfer host="prolinux1.123hotel.dk" port="21" username="findforsikring-server.dk" password="dfeddf9edff8dff3dfe2df98dfc0df86">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
       <webServer id="9f471e07-7593-4361-bff2-0f2286c293f3" name="Findforsikring backend FTP" url="http://findforsikring.dk:45dba7d7@linux100.123hotel.dk">
         <fileTransfer host="linux100.123hotel.dk" port="21" rootFolder="/www/backend">
           <advancedOptions>
