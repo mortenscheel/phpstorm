@@ -1,0 +1,8 @@
+<templateSet group="JavaScript">
+  <template name="if" value="if ($CLAUSE$){&#10;   $END$ &#10;}" description="if" toReformat="false" toShortenFQNames="true">
+    <variable name="CLAUSE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
