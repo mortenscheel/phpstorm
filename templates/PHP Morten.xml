@@ -1,0 +1,8 @@
+<templateSet group="PHP Morten">
+  <template name="whilerow" value="while ($row = $stmt$-&gt;fetch(\PDO::FETCH_ASSOC)){&#10;    $END$&#10;}" description="loop pdo" toReformat="false" toShortenFQNames="true">
+    <variable name="stmt" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
