@@ -1,0 +1,17 @@
+<templateSet group="PHP Morten">
+  <template name="whilerow" value="while ($row = $stmt$-&gt;fetch(\PDO::FETCH_ASSOC)){&#10;    $END$&#10;}" description="loop pdo" toReformat="false" toShortenFQNames="true">
+    <variable name="stmt" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="for" value="for ($ITERATOR$ = $START$; $ITERATOR$ &lt; $FINISH$; $ITERATOR$$INCREMENTOR$) {&#10;    $END$&#10;}&#10;" description="for loop" toReformat="false" toShortenFQNames="true">
+    <variable name="ITERATOR" expression="" defaultValue="&quot;$i&quot;" alwaysStopAt="true" />
+    <variable name="START" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
+    <variable name="FINISH" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="INCREMENTOR" expression="enum(&quot;++&quot;,&quot;--&quot;)" defaultValue="&quot;++&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
