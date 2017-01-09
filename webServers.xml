@@ -1,0 +1,14 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b0a7353d-ed3b-441b-bb9b-3f1a63136efc" name="Findforsikring FTP" url="http://linux100.123hotel.dk">
+        <fileTransfer host="linux100.123hotel.dk" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
