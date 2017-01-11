@@ -1,4 +1,7 @@
 <keymap version="1" name="Morten" parent="$default">
+  <action id="PublishGroup.SyncLocalVsRemote">
+    <keyboard-shortcut first-keystroke="ctrl comma" />
+  </action>
   <action id="RecentProjectListGroup">
     <keyboard-shortcut first-keystroke="shift ctrl alt r" />
   </action>
