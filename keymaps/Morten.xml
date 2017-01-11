@@ -1,4 +1,8 @@
 <keymap version="1" name="Morten" parent="$default">
+  <action id="GotoClass">
+    <keyboard-shortcut first-keystroke="ctrl o" />
+  </action>
+  <action id="OverrideMethods" />
   <action id="PublishGroup.SyncLocalVsRemote">
     <keyboard-shortcut first-keystroke="ctrl comma" />
   </action>
