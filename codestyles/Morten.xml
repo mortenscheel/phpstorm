@@ -1,4 +1,6 @@
 <code_scheme name="Morten">
+  <option name="HTML_ATTRIBUTE_WRAP" value="4" />
+  <option name="HTML_KEEP_LINE_BREAKS" value="false" />
   <PHPCodeStyleSettings>
     <option name="ALIGN_KEY_VALUE_PAIRS" value="true" />
     <option name="LOWER_CASE_BOOLEAN_CONST" value="true" />
