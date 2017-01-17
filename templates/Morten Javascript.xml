@@ -4,4 +4,12 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="fore" value="for (var $INC$ in $COL$) {&#10;    if ($COL$.hasOwnProperty($INC$)) {&#10;        var $VAR$ = $COL$[$INC$];&#10;        $END$&#10;    }&#10;}" description="simple foreach" toReformat="false" toShortenFQNames="true">
+    <variable name="INC" expression="" defaultValue="&quot;i&quot;" alwaysStopAt="true" />
+    <variable name="COL" expression="" defaultValue="&quot;collection&quot;" alwaysStopAt="true" />
+    <variable name="VAR" expression="" defaultValue="&quot;item&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
