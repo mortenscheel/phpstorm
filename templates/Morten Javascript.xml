@@ -1,0 +1,7 @@
+<templateSet group="Morten Javascript">
+  <template name="log" value="console.log($END$)" description="console.log shorcut" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
