@@ -20,7 +20,7 @@
       <webServer id="88f7f312-5944-4f1c-a540-41315ddda598" name="BillyForsikring" url="http://billyforsikring.dk">
         <fileTransfer host="billyforsikring.dk" port="21">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" showHiddenFiles="true" />
+            <advancedOptions dataProtectionLevel="Private" showHiddenFiles="true" />
           </advancedOptions>
           <option name="port" value="21" />
         </fileTransfer>
