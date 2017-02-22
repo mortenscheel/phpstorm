@@ -278,4 +278,11 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="$table-&gt;integerWithForeignKey" value="$table-&gt;integer('$SINGULAR$_id')-&gt;unsigned();&#10;$table-&gt;foreign('$SINGULAR$_id')-&gt;references('id')-&gt;on('$SINGULAR$s')$ON$;" description="Create integer and foreign key in one go" toReformat="false" toShortenFQNames="true">
+    <variable name="SINGULAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ON" expression="enum(&quot;&quot;, &quot;-&gt;onDelete('cascade')&quot;)" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
