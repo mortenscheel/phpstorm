@@ -1,11 +1,11 @@
 <application>
   <component name="FindSettings">
     <option name="caseSensitive" value="true" />
-    <option name="customScope" value="Directory '.../app - [DocumentTracker]'" />
-    <option name="defaultScopeName" value="Directory '.../app - [DocumentTracker]'" />
+    <option name="customScope" value="Directory '.../app - [LeadValidator]'" />
+    <option name="defaultScopeName" value="Directory '.../app - [LeadValidator]'" />
     <option name="localRegularExpressions" value="true" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="Directory '.../app - [DocumentTracker]'" />
+    <option name="SEARCH_SCOPE" value="Directory '.../app - [LeadValidator]'" />
   </component>
 </application>
