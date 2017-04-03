@@ -1,4 +1,5 @@
 <code_scheme name="Morten">
+  <option name="LINE_SEPARATOR" value="&#10;" />
   <option name="HTML_KEEP_LINE_BREAKS" value="false" />
   <DBN-PSQL>
     <case-options enabled="false">
