@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Directory '[DocumentTracker] - ...\app'" />
-    <option name="defaultScopeName" value="Directory '[DocumentTracker] - ...\app'" />
-    <option name="SEARCH_SCOPE" value="Directory '[DocumentTracker] - ...\app'" />
+    <option name="customScope" value="App only" />
+    <option name="defaultScopeName" value="App only" />
+    <option name="SEARCH_SCOPE" value="App only" />
   </component>
 </application>
