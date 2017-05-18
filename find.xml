@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Directory '[DocumentTracker] - ...\resources\views'" />
-    <option name="defaultScopeName" value="Directory '[DocumentTracker] - ...\resources\views'" />
-    <option name="SEARCH_SCOPE" value="Directory '[DocumentTracker] - ...\resources\views'" />
+    <option name="customScope" value="Laravel" />
+    <option name="defaultScopeName" value="Laravel" />
+    <option name="SEARCH_SCOPE" value="Laravel" />
   </component>
 </application>
