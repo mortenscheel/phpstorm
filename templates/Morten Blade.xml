@@ -1,0 +1,8 @@
+<templateSet group="Morten Blade">
+  <template name="ext" value="@extends('layouts.app')&#10;&#10;@section('title')&#10;   $FIRST$&#10;@endsection&#10;&#10;@section('css')&#10;&#10;@endsection&#10;&#10;@section('content')&#10;    $END$&#10;@endsection&#10;&#10;@section('js')&#10;&#10;@endsection" toReformat="false" toShortenFQNames="true">
+    <variable name="FIRST" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
