@@ -1,10 +1,4 @@
 <application>
-  <component name="PhpInterpreters">
-    <interpreters>
-      <interpreter home="\usr\local\bin\php" id="236638b8-ecb9-4564-9052-06b5e7bac10b" name="Brew PHP" debugger_id="php.debugger.XDebug" />
-      <interpreter home="E:\xampp\php\php.exe" id="23cb0fba-ada9-4072-9334-1aafbbc4cd80" name="Xampp PHP" debugger_id="php.debugger.XDebug" />
-    </interpreters>
-  </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="Brew PHP">
