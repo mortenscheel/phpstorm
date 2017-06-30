@@ -4,7 +4,7 @@
     <property name="created">2016-12-23T19:15:20</property>
     <property name="ide">PhpStorm</property>
     <property name="ideVersion">2016.3.2.0.0</property>
-    <property name="modified">2017-06-30T11:35:29</property>
+    <property name="modified">2017-06-30T12:05:20</property>
     <property name="originalScheme">Juicy</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -1085,9 +1085,21 @@
         <option name="FOREGROUND" value="edb92e" />
       </value>
     </option>
+    <option name="PHP_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="e95f00" />
+      </value>
+    </option>
     <option name="PHP_PARAMETER">
       <value>
         <option name="FOREGROUND" value="92bce5" />
+      </value>
+    </option>
+    <option name="PHP_SCRIPTING_BACKGROUND">
+      <value>
+        <option name="FOREGROUND" value="edb92e" />
+        <option name="BACKGROUND" value="222222" />
+        <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="PHP_TAG">
