@@ -4,19 +4,12 @@
     <property name="created">2017-07-04T15:02:41</property>
     <property name="ide">PhpStorm</property>
     <property name="ideVersion">2017.1.1.0.0</property>
-    <property name="modified">2017-07-06T12:51:58</property>
+    <property name="modified">2017-07-11T11:23:11</property>
     <property name="originalScheme">Railscasts copy</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.1" />
   <option name="EDITOR_FONT_SIZE" value="14" />
-  <console-font>
-    <option name="EDITOR_FONT_NAME" value="Source Code Pro for Powerline" />
-    <option name="EDITOR_FONT_SIZE" value="12" />
-  </console-font>
-  <console-font>
-    <option name="EDITOR_FONT_NAME" value="Ayuthaya" />
-    <option name="EDITOR_FONT_SIZE" value="12" />
-  </console-font>
+  <option name="CONSOLE_FONT_NAME" value="Monospaced" />
   <option name="EDITOR_FONT_NAME" value="Fira Code" />
   <colors>
     <option name="CARET_COLOR" value="ffffff" />
@@ -1023,6 +1016,11 @@
     <option name="OC_FORMAT_TOKEN">
       <value>
         <option name="FOREGROUND" value="a5c261" />
+      </value>
+    </option>
+    <option name="PHP_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="cc7833" />
       </value>
     </option>
     <option name="PHP_VAR">
