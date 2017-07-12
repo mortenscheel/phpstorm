@@ -8,4 +8,7 @@
     <option name="concatenateStringsOnEnter" value="true" />
     <option name="qualificationType" value="On collisions" />
   </component>
+  <component name="TodoConfiguration">
+    <pattern icon="important" pattern="mstodo" />
+  </component>
 </application>
