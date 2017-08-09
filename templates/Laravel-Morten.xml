@@ -1,0 +1,9 @@
+<templateSet group="Laravel-Morten">
+  <template name="eventpair" value="'App\Events\$EVENT$' =&gt; [&#10;   'App\Listeners\$LISTENER$',&#10;]," description="New Event / Listener pair" toReformat="true" toShortenFQNames="true">
+    <variable name="EVENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LISTENER" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Expression" value="true" />
+    </context>
+  </template>
+</templateSet>
