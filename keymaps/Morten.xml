@@ -7,7 +7,7 @@
     <keyboard-shortcut first-keystroke="ctrl o" />
   </action>
   <action id="OverrideMethods" />
-  <action id="PublishGroup.SyncLocalVsRemote">
+  <action id="PublishGroup.SyncLocalVsRemoteWith">
     <keyboard-shortcut first-keystroke="ctrl comma" />
   </action>
   <action id="RecentProjectListGroup">
