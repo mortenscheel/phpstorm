@@ -21,4 +21,11 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="tryc" value="try{&#10;    $END$&#10;} catch ($CLASS$ $e){&#10;    $CODE$&#10;}&#10;" description="Try/Catch expando" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="" defaultValue="&quot;\\Exception&quot;" alwaysStopAt="true" />
+    <variable name="CODE" expression="" defaultValue="&quot;var_dump($e);&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
