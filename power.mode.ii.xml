@@ -1,0 +1,10 @@
+<application>
+  <component name="PowerModeII">
+    <option name="flamesEnabled" value="false" />
+    <option name="heatup" value="0" />
+    <option name="heatupThreshold" value="51" />
+    <option name="heatupTime" value="28249" />
+    <option name="isCaretAction" value="false" />
+    <option name="shakeEnabled" value="false" />
+  </component>
+</application>
