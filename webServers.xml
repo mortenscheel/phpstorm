@@ -2,7 +2,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="447009c5-d6d6-4799-ba5a-c386111f21f1" name="VM0345" url="http://vm0345.enterprisecloud.nu">
-        <fileTransfer host="vm0345.enterprisecloud.nu" port="22" accessType="SFTP">
+        <fileTransfer host="vm0345.enterprisecloud.nu" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
