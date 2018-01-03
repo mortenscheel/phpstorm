@@ -1,9 +1,6 @@
 <code_scheme name="Morten" version="173">
   <option name="LINE_SEPARATOR" value="&#10;" />
   <option name="HTML_KEEP_LINE_BREAKS" value="false" />
-  <CsvCodeStyleSettings>
-    <option name="SEPARATOR_INDEX" value="1" />
-  </CsvCodeStyleSettings>
   <DBN-PSQL>
     <case-options enabled="false">
       <option name="KEYWORD_CASE" value="lower" />
