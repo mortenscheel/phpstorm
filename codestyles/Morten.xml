@@ -1,4 +1,4 @@
-<code_scheme name="Morten">
+<code_scheme name="Morten" version="173">
   <option name="LINE_SEPARATOR" value="&#10;" />
   <option name="HTML_KEEP_LINE_BREAKS" value="false" />
   <DBN-PSQL>
@@ -25,6 +25,9 @@
       <option name="ITERATION_ELEMENTS_WRAPPING" value="chop_down_if_not_single" />
     </formatting-settings>
   </DBN-SQL>
+  <HTMLCodeStyleSettings>
+    <option name="HTML_KEEP_LINE_BREAKS" value="false" />
+  </HTMLCodeStyleSettings>
   <PHPCodeStyleSettings>
     <option name="ALIGN_KEY_VALUE_PAIRS" value="true" />
     <option name="LOWER_CASE_BOOLEAN_CONST" value="true" />
