@@ -2,7 +2,6 @@
   <component name="GeneralSettings">
     <option name="confirmExit" value="false" />
     <option name="confirmOpenNewProject2" value="1" />
-    <option name="processCloseConfirmation" value="TERMINATE" />
     <option name="showTipsOnStartup" value="false" />
   </component>
   <component name="Registry">
@@ -11,6 +10,5 @@
     <entry key="search.everywhere.toolwindows" value="false" />
     <entry key="search.everywhere.configurations" value="false" />
     <entry key="search.everywhere.actions" value="false" />
-    <entry key="bigger.font.in.project.view" value="true" />
   </component>
 </application>
