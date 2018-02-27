@@ -26,6 +26,7 @@
     </formatting-settings>
   </DBN-SQL>
   <HTMLCodeStyleSettings>
+    <option name="HTML_ATTRIBUTE_WRAP" value="4" />
     <option name="HTML_KEEP_LINE_BREAKS" value="false" />
   </HTMLCodeStyleSettings>
   <PHPCodeStyleSettings>
