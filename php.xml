@@ -1,18 +1,4 @@
 <application>
-  <component name="PhpInterpreters">
-    <interpreters>
-      <interpreter home="sftp://morten@192.168.1.172:22/usr/bin/php" id="1d5e3812-3180-4112-b31a-d44bc445812a" name="Remote PHP 7.1" debugger_id="php.debugger.XDebug">
-        <remote_data WEB_SERVER_CONFIG_ID="a782da99-9b76-499e-95a7-8f64f313cea1" WEB_SERVER_CONFIG_NAME="Mint-SFTP" WEB_SERVER_CREDENTIALS_ID="sftp://morten@192.168.1.172:22" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/morten/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
-      </interpreter>
-      <interpreter home="ssh://morten@192.168.1.172:22/usr/bin/php" id="6e4ac4fe-9415-4794-a8ee-34bc81b6cd1a" name="Remote PHP 7.1 SSH" debugger_id="php.debugger.XDebug">
-        <remote_data HOST="192.168.1.172" PORT="22" USERNAME="morten" PRIVATE_KEY_FILE="" USE_KEY_PAIR="false" USE_AUTH_AGENT="false" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/morten/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
-      </interpreter>
-      <interpreter home="E:/xampp/php/php.exe" id="396cb374-0361-4960-9536-91bad930b80b" name="PHP 5.6" debugger_id="php.debugger.XDebug" />
-      <interpreter home="\usr\local\bin\php" id="343ba1b3-612d-43d0-9b39-ef15d934967e" name="Mac PHP" debugger_id="php.debugger.XDebug" />
-      <interpreter home="C:\laragon\bin\php\php-7.1.7-Win32-VC14-x64\php.exe" id="ee7e3b93-5269-4103-8c21-50c796507351" name="Laragon PHP" debugger_id="php.debugger.XDebug" />
-      <interpreter home="E:\php_installations\7.1\php.exe" id="f562c8bb-8d26-49b4-9284-72d27d25d9b3" name="Win 7.1 VC14 TS" debugger_id="php.debugger.XDebug" />
-    </interpreters>
-  </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="Win 7.1 VC14 TS">
