@@ -1,0 +1,9 @@
+<templateSet group="html/xml">
+  <template name="adminlte-box" value="&lt;div class=&quot;box box-$TYPE$&quot;&gt;&#10;            &lt;div class=&quot;box-header with-border&quot;&gt;&#10;                &lt;h3 class=&quot;box-title&quot;&gt;$TITLE$&lt;/h3&gt;&#10;                &lt;div class=&quot;box-tools pull-right&quot;&gt;&#10;                    &lt;button type=&quot;button&quot; class=&quot;btn btn-box-tool&quot; data-widget=&quot;collapse&quot;&gt;&lt;i class=&quot;fa fa-minus&quot;&gt;&lt;/i&gt;&#10;                    &lt;/button&gt;&#10;                    &lt;button type=&quot;button&quot; class=&quot;btn btn-box-tool&quot; data-widget=&quot;remove&quot;&gt;&lt;i class=&quot;fa fa-times&quot;&gt;&lt;/i&gt;&lt;/button&gt;&#10;                &lt;/div&gt;&#10;            &lt;/div&gt;&#10;            &lt;div class=&quot;box-body&quot; style=&quot;&quot;&gt;&#10;                $END$&#10;            &lt;/div&gt;&#10;            &lt;div class=&quot;box-footer&quot; style=&quot;&quot;&gt;&#10;                &#10;            &lt;/div&gt;&#10;        &lt;/div&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
