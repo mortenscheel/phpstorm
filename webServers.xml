@@ -1,0 +1,22 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="10e3d4ec-2844-4777-a119-2780bc9e01ce" name="Findforsikring FTP (project level)" url="http://linux100.123hotel.dk">
+        <fileTransfer host="linux100.123hotel.dk" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="4d25e545-a9f7-4bb7-811c-f71f9160d9a3" name="FF VPN" url="http://185.21.40.236">
+        <fileTransfer host="185.21.40.236" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
