@@ -2,7 +2,7 @@
   <component name="PhpInterpreters">
     <interpreters>
       <interpreter home="\usr\local\bin\php" id="017b5a4d-4b49-4ce0-aa5d-12bc50b1c897" name="PHP 7.1" debugger_id="php.debugger.XDebug" />
-      <interpreter home="E:\xampp72\php\php.exe" id="31e2d3b0-f642-4e14-aa96-40572e46f402" name="PHP72-xampp" debugger_id="php.debugger.XDebug" />
+      <interpreter home="C:\xampp\php\php.exe" id="31e2d3b0-f642-4e14-aa96-40572e46f402" name="PHP72-xampp" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
@@ -409,9 +409,9 @@
         </phpinfo>
       </interpreter>
       <interpreter name="PHP72-xampp">
-        <phpinfo binary_type="PHP" php_cgi="E:\xampp72\php\php-cgi.exe" php_cli="E:\xampp72\php\php.exe" path_separator=";" version="7.2.6">
+        <phpinfo binary_type="PHP" php_cgi="C:\xampp\php\php-cgi.exe" php_cli="C:\xampp\php\php.exe" path_separator=";" version="7.2.6">
           <additional_php_ini />
-          <configuration_file>E:\xampp72\php\php.ini</configuration_file>
+          <configuration_file>C:\xampp\php\php.ini</configuration_file>
           <configuration_options>
             <configuration_option name="SMTP" value="localhost" />
             <configuration_option name="allow_url_fopen" value="1" />
@@ -429,10 +429,10 @@
             <configuration_option name="auto_globals_jit" value="1" />
             <configuration_option name="auto_prepend_file" value="" />
             <configuration_option name="bcmath.scale" value="0" />
-            <configuration_option name="browscap" value="E:\xampp72\php\extras\browscap.ini" />
+            <configuration_option name="browscap" value="C:\xampp\php\extras\browscap.ini" />
             <configuration_option name="cli.pager" value="" />
             <configuration_option name="cli.prompt" value="\b \&gt; " />
-            <configuration_option name="curl.cainfo" value="E:\xampp72\apache\bin\curl-ca-bundle.crt" />
+            <configuration_option name="curl.cainfo" value="C:\xampp\apache\bin\curl-ca-bundle.crt" />
             <configuration_option name="date.default_latitude" value="31.7667" />
             <configuration_option name="date.default_longitude" value="35.2333" />
             <configuration_option name="date.sunrise_zenith" value="90.583333" />
@@ -451,7 +451,7 @@
             <configuration_option name="enable_dl" value="" />
             <configuration_option name="enable_post_data_reading" value="1" />
             <configuration_option name="error_append_string" value="" />
-            <configuration_option name="error_log" value="E:\xampp72\php\logs\php_error_log" />
+            <configuration_option name="error_log" value="C:\xampp\php\logs\php_error_log" />
             <configuration_option name="error_prepend_string" value="" />
             <configuration_option name="error_reporting" value="22527" />
             <configuration_option name="exif.decode_jis_intel" value="JIS" />
@@ -461,7 +461,7 @@
             <configuration_option name="exif.encode_jis" value="" />
             <configuration_option name="exif.encode_unicode" value="ISO-8859-15" />
             <configuration_option name="expose_php" value="1" />
-            <configuration_option name="extension_dir" value="E:\xampp72\php\ext" />
+            <configuration_option name="extension_dir" value="C:\xampp\php\ext" />
             <configuration_option name="file_uploads" value="1" />
             <configuration_option name="filter.default" value="unsafe_raw" />
             <configuration_option name="filter.default_flags" value="" />
@@ -481,7 +481,7 @@
             <configuration_option name="ignore_repeated_source" value="" />
             <configuration_option name="ignore_user_abort" value="0" />
             <configuration_option name="implicit_flush" value="1" />
-            <configuration_option name="include_path" value="E:\xampp72\php\PEAR" />
+            <configuration_option name="include_path" value="C:\xampp\php\PEAR" />
             <configuration_option name="input_encoding" value="" />
             <configuration_option name="internal_encoding" value="" />
             <configuration_option name="log_errors" value="1" />
@@ -528,7 +528,7 @@
             <configuration_option name="mysqlnd.sha256_server_public_key" value="" />
             <configuration_option name="mysqlnd.trace_alloc" value="" />
             <configuration_option name="open_basedir" value="" />
-            <configuration_option name="openssl.cafile" value="E:\xampp72\apache\bin\curl-ca-bundle.crt" />
+            <configuration_option name="openssl.cafile" value="C:\xampp\apache\bin\curl-ca-bundle.crt" />
             <configuration_option name="openssl.capath" value="" />
             <configuration_option name="output_buffering" value="0" />
             <configuration_option name="output_encoding" value="" />
@@ -565,7 +565,7 @@
             <configuration_option name="session.name" value="PHPSESSID" />
             <configuration_option name="session.referer_check" value="" />
             <configuration_option name="session.save_handler" value="files" />
-            <configuration_option name="session.save_path" value="E:\xampp72\tmp" />
+            <configuration_option name="session.save_path" value="C:\xampp\tmp" />
             <configuration_option name="session.serialize_handler" value="php" />
             <configuration_option name="session.sid_bits_per_character" value="5" />
             <configuration_option name="session.sid_length" value="26" />
@@ -587,7 +587,7 @@
             <configuration_option name="track_errors" value="" />
             <configuration_option name="unserialize_callback_func" value="" />
             <configuration_option name="upload_max_filesize" value="2M" />
-            <configuration_option name="upload_tmp_dir" value="E:\xampp72\tmp" />
+            <configuration_option name="upload_tmp_dir" value="C:\xampp\tmp" />
             <configuration_option name="url_rewriter.hosts" value="" />
             <configuration_option name="url_rewriter.tags" value="form=" />
             <configuration_option name="user_agent" value="" />
@@ -634,7 +634,7 @@
             <configuration_option name="xdebug.profiler_enable" value="0" />
             <configuration_option name="xdebug.profiler_enable_trigger" value="0" />
             <configuration_option name="xdebug.profiler_enable_trigger_value" value="" />
-            <configuration_option name="xdebug.profiler_output_dir" value="e:\xampp72\tmp" />
+            <configuration_option name="xdebug.profiler_output_dir" value="c:\xampp\tmp" />
             <configuration_option name="xdebug.profiler_output_name" value="cachegrind.out.%p" />
             <configuration_option name="xdebug.remote_addr_header" value="" />
             <configuration_option name="xdebug.remote_autostart" value="1" />
@@ -643,7 +643,7 @@
             <configuration_option name="xdebug.remote_enable" value="0" />
             <configuration_option name="xdebug.remote_handler" value="dbgp" />
             <configuration_option name="xdebug.remote_host" value="127.0.0.1" />
-            <configuration_option name="xdebug.remote_log" value="e:\xampp72\tmp\xdebug.txt" />
+            <configuration_option name="xdebug.remote_log" value="c:\xampp\tmp\xdebug.txt" />
             <configuration_option name="xdebug.remote_mode" value="req" />
             <configuration_option name="xdebug.remote_port" value="9000" />
             <configuration_option name="xdebug.remote_timeout" value="200" />
@@ -656,7 +656,7 @@
             <configuration_option name="xdebug.trace_enable_trigger_value" value="" />
             <configuration_option name="xdebug.trace_format" value="0" />
             <configuration_option name="xdebug.trace_options" value="0" />
-            <configuration_option name="xdebug.trace_output_dir" value="e:\xampp72\tmp" />
+            <configuration_option name="xdebug.trace_output_dir" value="c:\xampp\tmp" />
             <configuration_option name="xdebug.trace_output_name" value="trace.%c" />
             <configuration_option name="xdebug.var_display_max_children" value="128" />
             <configuration_option name="xdebug.var_display_max_data" value="512" />
