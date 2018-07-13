@@ -17,6 +17,9 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="637dfdb4-889a-442b-a405-d193012bc6f2" name="Brugersite-local" url="http://brugersite.test">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
